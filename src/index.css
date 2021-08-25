@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Headre */
+
+.main_header{
+  display: flex;
+  background-color: #2E2E2E;
+  color: white;
+}
+.container{
+  display: block;
+}
+.container_2{
+  margin-left: 80%;
+  display: flex;
+}
+.container_2 > p{
+  margin-left: 2vh;
+}
+.btn{
+ position: absolute;
+}
+.footer{
+  display: flex;
+  background-color:#2E2E2E ;
+  height: 25vh;
+}
+.main_footer{
+  display: flex;
+  background-color: white;
+  height: 5vh;
+  width: 100%;
+  margin-top: 2vh;
+}
+.main_footer_2{
+  display: flex;
+  margin-top: 7vh;
+  color: white;
+}
+.footer_btn{
+  background-color: #89CFF0;
+  height: 5vh;
+  margin-left: 80vh;
+  margin-top: 2vh;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.edit_icon{
+  position: absolute;
+  background-color: white;
+    border-radius: 4vh;
+    margin-top: 25.7vh;
+    margin-left: 16vh;
+    color: grey;
+}
+
+
+.btn-2{
+  border: 1px solid black;
+  background: orange;
+  height: 3vh;
+  width: 3vh;
+  margin-left: 2vh;
+  position: relative;
+  margin-top: 1vh;
+}
+.icon{
+  margin-left: 2vh;
+  margin-top: 1vh;
+}
+@media only screen and (max-width: 600px) {
+  .container_2{
+    margin-left: 40%;
+   
+  }
+  .footer_btn {
+    margin-left: 0;
+    margin-top: 8vh;
+  }
+  .main_footer_2{
+    margin-left: -14vh;
+  }
+  .edit_icon{
+    margin-top: 28.7vh;
+    margin-left: 18vh;
+  }
+  .change{
+    font-size: 27px;
+  }
+}
